@@ -10,9 +10,14 @@
 */publish
 $tf
 TestResults
-!*.sln
-!*.csproj
-!*/*.csproj
+
+## For our purposes we don't want the project files
+#!*.sln
+#!*.csproj
+#!*/*.csproj
+*.sln
+*.csproj
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
